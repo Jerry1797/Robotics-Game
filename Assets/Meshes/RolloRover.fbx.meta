@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 4d1236f9ed6f51d4286d03cfa1e4ed67
+timeCreated: 1487632234
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: left_tread_low
+    100002: left_wheels_low01
+    100004: left_wheels_low02
+    100006: left_wheels_low03
+    100008: right_tread_low
+    100010: right_wheels_low01
+    100012: right_wheels_low02
+    100014: right_wheels_low03
+    100016: //RootNode
+    100018: rover_body_low
+    100020: rover_eye_low
+    100022: satellite_base_low
+    100024: satellite_left_arm_low
+    100026: satellite_low
+    100028: satellite_right_arm_low
+    400000: left_tread_low
+    400002: left_wheels_low01
+    400004: left_wheels_low02
+    400006: left_wheels_low03
+    400008: right_tread_low
+    400010: right_wheels_low01
+    400012: right_wheels_low02
+    400014: right_wheels_low03
+    400016: //RootNode
+    400018: rover_body_low
+    400020: rover_eye_low
+    400022: satellite_base_low
+    400024: satellite_left_arm_low
+    400026: satellite_low
+    400028: satellite_right_arm_low
+    2300000: left_tread_low
+    2300002: left_wheels_low01
+    2300004: left_wheels_low02
+    2300006: left_wheels_low03
+    2300008: right_tread_low
+    2300010: right_wheels_low01
+    2300012: right_wheels_low02
+    2300014: right_wheels_low03
+    2300016: rover_body_low
+    2300018: rover_eye_low
+    2300020: satellite_base_low
+    2300022: satellite_left_arm_low
+    2300024: satellite_low
+    2300026: satellite_right_arm_low
+    3300000: left_tread_low
+    3300002: left_wheels_low01
+    3300004: left_wheels_low02
+    3300006: left_wheels_low03
+    3300008: right_tread_low
+    3300010: right_wheels_low01
+    3300012: right_wheels_low02
+    3300014: right_wheels_low03
+    3300016: rover_body_low
+    3300018: rover_eye_low
+    3300020: satellite_base_low
+    3300022: satellite_left_arm_low
+    3300024: satellite_low
+    3300026: satellite_right_arm_low
+    4300000: left_wheels_low01
+    4300002: left_wheels_low02
+    4300004: left_wheels_low03
+    4300006: right_wheels_low01
+    4300008: right_wheels_low02
+    4300010: right_wheels_low03
+    4300012: satellite_base_low
+    4300014: satellite_left_arm_low
+    4300016: rover_eye_low
+    4300018: satellite_low
+    4300020: satellite_right_arm_low
+    4300022: rover_body_low
+    4300024: left_tread_low
+    4300026: right_tread_low
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
