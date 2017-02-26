@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Wireframe
+  m_Shader: {fileID: 4800000, guid: 3db621b4a7a641c43b10f6608315373f, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs: []
+    m_Floats:
+    - first:
+        name: _Boundry
+      second: 0.484
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0, g: 0.327992, b: 0.9705882, a: 0.134}
+    - first:
+        name: _Color1
+      second: {r: 0, g: 0.08965492, b: 1, a: 0.703}

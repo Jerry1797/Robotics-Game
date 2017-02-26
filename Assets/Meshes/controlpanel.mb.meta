@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: ef0467f8fad21f14b9e2c7688d82d41c
+timeCreated: 1487632271
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: add_button
+    100002: btn_0
+    100004: btn_1
+    100006: btn_2
+    100008: btn_3
+    100010: btn_4
+    100012: btn_5
+    100014: btn_6
+    100016: btn_7
+    100018: btn_8
+    100020: btn_9
+    100022: cmd_history
+    100024: cmd_input
+    100026: cmdhub_base
+    100028: //RootNode
+    100030: delete_button
+    100032: fnct1
+    100034: fnct2
+    100036: fnct3
+    100038: fnct4
+    100040: fnct5
+    100042: fnct6
+    100044: fncts
+    100046: group1
+    100048: numpad
+    100050: reset_button
+    100052: run_button
+    400000: add_button
+    400002: btn_0
+    400004: btn_1
+    400006: btn_2
+    400008: btn_3
+    400010: btn_4
+    400012: btn_5
+    400014: btn_6
+    400016: btn_7
+    400018: btn_8
+    400020: btn_9
+    400022: cmd_history
+    400024: cmd_input
+    400026: cmdhub_base
+    400028: //RootNode
+    400030: delete_button
+    400032: fnct1
+    400034: fnct2
+    400036: fnct3
+    400038: fnct4
+    400040: fnct5
+    400042: fnct6
+    400044: fncts
+    400046: group1
+    400048: numpad
+    400050: reset_button
+    400052: run_button
+    2300000: add_button
+    2300002: btn_0
+    2300004: btn_1
+    2300006: btn_2
+    2300008: btn_3
+    2300010: btn_4
+    2300012: btn_5
+    2300014: btn_6
+    2300016: btn_7
+    2300018: btn_8
+    2300020: btn_9
+    2300022: cmd_history
+    2300024: cmd_input
+    2300026: cmdhub_base
+    2300028: delete_button
+    2300030: fnct1
+    2300032: fnct2
+    2300034: fnct3
+    2300036: fnct4
+    2300038: fnct5
+    2300040: fnct6
+    2300042: reset_button
+    2300044: run_button
+    3300000: add_button
+    3300002: btn_0
+    3300004: btn_1
+    3300006: btn_2
+    3300008: btn_3
+    3300010: btn_4
+    3300012: btn_5
+    3300014: btn_6
+    3300016: btn_7
+    3300018: btn_8
+    3300020: btn_9
+    3300022: cmd_history
+    3300024: cmd_input
+    3300026: cmdhub_base
+    3300028: delete_button
+    3300030: fnct1
+    3300032: fnct2
+    3300034: fnct3
+    3300036: fnct4
+    3300038: fnct5
+    3300040: fnct6
+    3300042: reset_button
+    3300044: run_button
+    4300000: btn_0
+    4300002: delete_button
+    4300004: fnct5
+    4300006: reset_button
+    4300008: btn_1
+    4300010: add_button
+    4300012: cmd_history
+    4300014: run_button
+    4300016: btn_8
+    4300018: btn_6
+    4300020: cmd_input
+    4300022: cmdhub_base
+    4300024: btn_9
+    4300026: btn_3
+    4300028: btn_2
+    4300030: fnct2
+    4300032: fnct3
+    4300034: fnct4
+    4300036: btn_5
+    4300038: btn_4
+    4300040: btn_7
+    4300042: fnct6
+    4300044: fnct1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
