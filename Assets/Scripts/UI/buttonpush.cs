@@ -9,6 +9,9 @@ public class buttonpush : MonoBehaviour {
     public Text test;
     public Text movementfunc;
     public InputField inputfeild;
+    public ArrowIndicatorBlink arrowDown;
+    public ArrowIndicatorBlink arrowUp;
+
     public bool canmove;
     public string[] inputarray = new string[2];
     
@@ -32,17 +35,14 @@ public class buttonpush : MonoBehaviour {
 
     int nodepos;
     public bool first;
+    private int startingInt = 0;
     void Start()
     {
         first = true;
         movementfunc.text = "";
         rb = player.GetComponent<Rigidbody>();
         canmove = false;
-        nodepos = 0;
-
-       
-       
-        
+        nodepos = 0;   
     }
     void Update()
         
@@ -212,7 +212,8 @@ public class buttonpush : MonoBehaviour {
             }
            
         }
-
+        DisplayText();
+        ScrollDown();
 
     }
 
@@ -332,4 +333,93 @@ public class buttonpush : MonoBehaviour {
         distance = Vector3.Distance(playerpos, newpos);
 
     }
+
+public void ScrollUp()
+
+{
+
+    if (startingInt >= 2)
+
+    {
+
+        startingInt -= 2;
+
+        DisplayText();
+
+    }
+
+}
+
+
+
+public void ScrollDown()
+
+{
+
+    int size = function.Count;
+
+    if (startingInt <= (size - 8))
+
+    {
+
+        startingInt += 2;
+
+        DisplayText();
+
+    }
+
+}
+
+    public void DisplayText()
+
+    {
+        Debug.Log("starting int:" +  startingInt);
+        Debug.Log("fcuntion count" + function.Count);
+        if (function.Count > 6 && startingInt < function.Count - 6)
+        {
+            arrowDown.Enable();            
+        }
+        else
+        {
+            arrowDown.Disable();
+        }
+        if(function.Count > 6 && startingInt > 0)
+        {
+            arrowUp.Enable();
+        }
+        else
+        {
+            arrowUp.Disable();
+        }
+
+
+        movementfunc.text = "";
+
+        int size = function.Count;
+
+        //Debug.Log("dispaly text");
+
+        int b = startingInt + 6;
+
+        for (int i = startingInt; i < b; i++)
+
+        {
+
+            //Debug.Log("made it into the loop");
+
+            if (i % 2 == 0)
+
+            {
+
+                movementfunc.text += function[i] + " " + function[i + 1] + "\n";
+
+                //Debug.Log("printed line");
+
+            }
+
+        }
+
+    }
+
+
 }

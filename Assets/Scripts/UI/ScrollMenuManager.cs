@@ -15,9 +15,7 @@ public class ScrollMenuManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		foreach (string b in currentFunctions) {
-			currentFunctions.Add (b);
-		}
+		
         m_RectTransform = GetComponent<RectTransform>();
     }
 }
