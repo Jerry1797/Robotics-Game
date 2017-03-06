@@ -9,9 +9,17 @@ public class GoalManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		CurrentGoalIndex = 0;
+        /*
         for(int i = 0;i < Goals.Count; i++) { 
             Goals[i].GetComponent<Goal>().SetIndex (i);
             Goals[i].GetComponent<Goal>().Activate();
+        }*/
+        int i = 0;
+        foreach(Transform t in Goals)
+        {
+            t.GetComponent<Goal>().SetIndex(i);
+            t.GetComponent<Goal>().Activate();
+            i++;
         }
 	
 	}

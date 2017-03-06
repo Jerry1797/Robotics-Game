@@ -11,10 +11,10 @@ public class Goal : MonoBehaviour {
     private Material m_Material;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		activated = true;
-        gameObject.GetComponent<Renderer>().material = Material.Instantiate(ReferenceMaterial);
-        m_Material = GetComponent<Renderer>().material;
+        m_Material = Instantiate(ReferenceMaterial);
+        gameObject.GetComponent<Renderer>().material = m_Material;
 	}
 	
 	// Update is called once per frame
@@ -25,8 +25,8 @@ public class Goal : MonoBehaviour {
 	{
 		Debug.Log ("Goal Was Activated");
         //Set Color
-        m_Material.color = ActivateColor;
-        m_Material.SetColor("_EmissionColor", ActivateColor);
+        gameObject.GetComponent<Renderer>().material.color = ActivateColor;
+        gameObject.GetComponent<Renderer>().material.SetColor("_EmissionColor", ActivateColor);
 
         activated = true;
 
@@ -35,8 +35,8 @@ public class Goal : MonoBehaviour {
 	{
 		Debug.Log ("Goal Was Deactivated");
         //Set Color
-        m_Material.color = DeactivateColor;
-        m_Material.SetColor("_EmissionColor", DeactivateColor);
+        gameObject.GetComponent<Renderer>().material.color = DeactivateColor;
+        gameObject.GetComponent<Renderer>().material.SetColor("_EmissionColor", DeactivateColor);
 
         activated = false;
 	}
